@@ -1,0 +1,121 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@font-face {
+font-family: 'Moyko';
+src: url('../fonts/Moyko.eot');
+src: url('../fonts/Moyko.woff2') format('woff2');
+src: url('../fonts/Moyko.woff') format('woff');
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand span{
+    color: #FCD000;
+    font-family: 'Moyko', serif;
+    /*display: block;*/
+    font-size: 3rem;
+    /*line-height: 6rem;
+    margin-top: -30px;
+    text-align: center;*/
+}
+
+.navbar-nav {
+    float: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav>li {
+    float: none;
+    display: inline-flex;
+        padding: 0 5%;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+}
+
+.logo-li>a{
+    background-color: transparent !important;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* for tablet */
+@media(max-width:768px) {
+    .navbar-nav {
+        text-align: left;
+    }
+    .navbar-nav>li {
+        float: none;
+        display: inline-flex;
+        padding: 0 2%;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+    }
+}
+
+/* for phone */
+@media(max-width:425px) {
+    .navbar-nav {
+        text-align: left;
+    }
+    .navbar-nav>li {
+        display: block;
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
