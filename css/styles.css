@@ -1,0 +1,162 @@
+/*
+* should this be part of slider css or music css??
+*/
+.album-slider {}
+.album-slider div{}
+.album-slider .sc-track{
+    padding: 20% 10%;
+}
+.album-slider img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30% 10%;
+}
+.album-slider .slick-next:before, .album-slider .slick-prev:before{
+        color: #AF4711;
+    background-color: #111010;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+/* INTRO SECTION */
+.intro {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url('../img/intro-bkg.png');
+    background-size: cover;
+}
+/* MUSIC SECTION */
+.music {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #222222;
+    color: #DBDED9;
+}
+
+/* VIDEOS SECTION */
+.videos {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.videos .v-wrapper {
+     width: 100rem;
+    margin: 0 auto;
+    height: 50rem;
+}
+.videos .v-wrapper .youtube-video {
+       width: 100%;
+       height: 100%;
+}
+
+/* DOPE SECTION */
+.dope {
+    height: 40%;
+    background-image: url('../img/dope-bkg.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #222222;
+}
+.dope .container {
+        display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.dope .container .row{
+    width: 100%;
+}
+.dope .container span{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Moyko', serif;
+}
+
+/* SHOWS SECTION */
+.shows {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #222222;
+    color: #DBDED9;
+}
+.shows .showlist {
+    border-bottom: 1px solid #6884B4;
+    /* border-top: 1px solid blue; */
+    font-size: 1.5rem;
+    padding: 2.5rem 0;
+    margin: 3rem 0;
+}
+.shows .showlist>.row {
+        display: flex;
+    align-items: center;
+}
+.shows .showlist .date {
+    text-align: center;
+}
+
+.shows .showlist .date span {
+    display: block;
+}
+.shows .showlist .venue {
+    text-align: left;
+}
+.shows .showlist .desc {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.shows .showlist .ticket .button {
+    border: 1px solid #FCD000;
+    background-color: transparent;
+    width: 40%;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+.shows .showlist .ticket .button:hover {
+        background-color: #FCD000;
+    color: #222222;
+}
+
+/* CONTACT */
+.contact {
+    background-image: url('../img/contact-bkg.png');
+    background-size: cover;
+     height: 50%;
+    padding-top: 150px;
+    text-align: center;    
+}
+.contact .form {
+    width: 50%;
+    float: right;
+    margin-top: -100px;
+    color: #DBDED9;
+}
+.contact .form h1 {
+    padding-bottom: 5%;
+}
+.contact .form .form-group {
+    text-align: left;
+}
+.contact .form .form-group label{
+        padding: 0 15px;
+}
+.contact .form .text{
+        padding: 5% 0;
+}
+.contact .form .button{
+    background-color: #FCD000;
+    border: 1px solid #222222;
+    color: #222222;
+    width: 20%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    /* border-radius: 20px; */
+    margin: 0 auto;
+}
+.contact .form .button:hover{
+        background-color: transparent;
+    color: #FCD000;
+}

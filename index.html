@@ -13,9 +13,14 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,14 +56,14 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#muisc">Music</a>
+                        <a class="page-scroll" href="#music">Music</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#videos">Videos</a>
                     </li>
                     <li class="logo-li hidden-xs">
                         <a class="navbar-brand page-scroll" href="#page-top">
-                            <span>John</span> 
+                            <span>John</span>
                             <span>Average</span>
                         </a>
                     </li>
@@ -76,47 +81,162 @@
     </nav>
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section">
+    <section id="intro" class="intro">
+        <div class="container">
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <!--<h1>Music</h1>-->
+                    <div class="album-slider">
+                        <div>
+                            <iframe class="sc-track" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306985825&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div>
+                        <div>
+                            <iframe class="sc-track" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209128982&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div>
+                        <div>
+                            <iframe class="sc-track" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182995121&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div>
+                        <div>
+                            <iframe class="sc-track" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149130952&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div>
+                        <div>
+                            <img class="" src="http://static6.businessinsider.com/image/55918b77ecad04a3465a0a63/nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners.jpg"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
+                    <div class="v-wrapper">
+                        <iframe class="youtube-video" width="80" height="315" src="https://www.youtube.com/embed/ClpnFZ-GRG8" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+    <!-- Dope Section -->
+    <section class="dope">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                 <span>Get The Money. C.R.E.A.M. Dolla Dolla Bill Y'all</span>
+               </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Shows Section -->
+    <section id="shows" class="shows">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    <h1>Upcoming Shows</h1>
+                </div>
+            </div>
+            <div class="showlist">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1 date">
+                        <span>MAR</span>
+                        <span>12</span>
+                    </div>
+                    <div class="col-md-6 venue">
+                        <span>Tabernacle</span>
+                        <span class="desc">All Ages Welcome</span>
+                    </div>
+                    <div class="col-md-4 ticket">
+                        <div class="button">Buy Tickets</div>
+                    </div>
+                </div>
+            </div>
+            <div class="showlist">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1 date">
+                        <span>MAR</span>
+                        <span>12</span>
+                    </div>
+                    <div class="col-md-6 venue">
+                        <span>Tabernacle</span>
+                        <span class="desc">All Ages Welcome</span>
+                    </div>
+                    <div class="col-md-4 ticket">
+                        <div class="button">Buy Tickets</div>
+                    </div>
+                </div>
+            </div>
+            <div class="showlist">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1 date">
+                        <span>MAR</span>
+                        <span>12</span>
+                    </div>
+                    <div class="col-md-6 venue">
+                        <span>Tabernacle</span>
+                        <span class="desc">All Ages Welcome</span>
+                    </div>
+                    <div class="col-md-4 ticket">
+                        <div class="button">Buy Tickets</div>
+                    </div>
+                </div>
+            </div>
+            <div class="showlist">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1 date">
+                        <span>MAR</span>
+                        <span>12</span>
+                    </div>
+                    <div class="col-md-6 venue">
+                        <span>Tabernacle</span>
+                        <span class="desc">21 +</span>
+                    </div>
+                    <div class="col-md-4 ticket">
+                        <div class="button">Buy Tickets</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact">
         <div class="container">
+            <div class="form">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                <div class="col-md-12">
+                    <h1>Get Updated</h1>
                 </div>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="form-group col-md-6 col-md-offset-1">
+                        <label for="formGroupExampleInput">Email*</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="formGroupExampleInput2">Zip Code*</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                </form>
+            </div>
+            <div class="row text">
+                <p>Subscribe to updates from me</p>
+            </div>
+            <div class="row">
+                <div class="button">Subscribe</div>
+            </div>
             </div>
         </div>
     </section>
@@ -130,6 +250,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="js/slick.min.js"></script>
 
 </body>
 
